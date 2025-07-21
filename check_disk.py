@@ -28,7 +28,7 @@ def check_disk_via_ssh(ip, username, password, port=22):
         print(f"Exception: {str(e)}")
 
 
-# 🔧 How to use
+# How to use
 if __name__ == "__main__":
     target_ip = "192.168.1.100"     # <== Edit IP
     username = "USERNAME"           # <== Enter User SSH
